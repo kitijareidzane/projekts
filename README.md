@@ -1,7 +1,7 @@
 # Konkrētas prasības meklēšana vairākos PDF failos un to izvadīšana.
 ## Programmatūras uzdevums:
 Lietotājs ievada konkrētu vārdu vai vārdu savienojumu, kuru vēlas atrast vairākos PDF failos (piem. CV), programma to meklē visos failos un izvada rindas numuru, lappaspuses numuru, rindu un faila nosaukumu, kur atrodas konkrēts vārds. Ja tāds vārds vai vārdu savienojums nav minēts nevienā failā, tad programma izvada "Vārds 'Jūsu vards' netika atrasts".
-## izmantotas bibliotēkas:
+## Izmantotas bibliotēkas:
 programmatūras izstrādes procesā tika izmantota tikai viena bibliotēka. PyMuPDF bibliotēka ļauj darboties ar PDF failiem Python valodā, kā arī tā it ļoti parocīga un viegla izmantošanā. Pirmkārt, PyMuPDF ir viegli izmantot, jo tā piedāvā intuitīvu interfeisu. Otrkārt, šī bibliotēka ļauj dabūt tekstu no PDF failiem, kas ir nepieciešam šī projekta ietvaros, lai atrastu pieprasitu informāciju. Treškārt, šī bibliotēka ir platformu neatkarīga un darbojas uz dažādām operētājsistēmām.
 ## Programmatūras apraksts:
 Lietotājs tiek aicināts ievadīt mapes ceļu, kurā jāmeklē PDF faili.
